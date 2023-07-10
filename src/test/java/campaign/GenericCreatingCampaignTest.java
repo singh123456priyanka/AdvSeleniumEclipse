@@ -12,6 +12,8 @@ import POMCampaign.POMCampaignCreation;
 import POMOrganization.CreatingCampaignPage;
 import POMOrganization.HomePage;
 
+//@ByPriyanka
+
 public class GenericCreatingCampaignTest extends BaseClass {
 
 	@Test
