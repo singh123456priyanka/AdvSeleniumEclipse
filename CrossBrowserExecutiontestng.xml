@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+ 
+  <test thread-count="5" parallel="tests" name="Test1">
+	  <parameter name="BROWSER" value="chrome"></parameter>
+	 	 <parameter name="URL" value="http://localhost:8888"></parameter>
+    <classes>
+      <class name="product.GenericCreatingProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" parallel="tests" name="Test2">
+	  <parameter name="BROWSER" value="edge"></parameter>
+	 	 <parameter name="URL" value="http://localhost:8888"></parameter>
+    <classes>
+      <class name="campaign.GenericCreatingCampaignTest"/>
+            <class name="organization.GenericCreatingOrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+</suite> <!-- Suite -->

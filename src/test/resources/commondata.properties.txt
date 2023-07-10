@@ -1,0 +1,6 @@
+#Common Data
+#Mon Jul 03 21:13:01 IST 2023
+password=admin
+browser=chrome
+url=http\://localhost\:8888
+username=admin
